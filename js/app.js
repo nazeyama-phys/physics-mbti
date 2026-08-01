@@ -1,5 +1,5 @@
-import { questions } from './data/questions.js?v=13';
-import { results } from './data/results.js?v=13';
+import { questions } from './data/questions.js?v=14';
+import { results } from './data/results.js?v=14';
 
 // ==========================================================================
 // APPLICATION STATE
@@ -419,8 +419,11 @@ function renderResult() {
 あなたのタイプ：${typeCode} - ${data.typeTitle}
 似ている物理学者：${scientistNames}
 「${mainQuote}」
-提供：nazeyama (https://youtube.com/@nazeyama?si=cP8br6dUTmOrhwvg)
-#物理版MBTI #PHYSICS_MBTI #nazeyama`;
+提供：nazeyama
+
+診断はこちら👇
+https://nazeyama-phys.github.io/physics-mbti/
+#物理版MBTI`;
 
   panel.innerHTML = `
     <div class="result-header">
