@@ -1,5 +1,5 @@
-import { questions } from './data/questions.js?v=16';
-import { results } from './data/results.js?v=16';
+import { questions } from './data/questions.js?v=17';
+import { results } from './data/results.js?v=17';
 
 // ==========================================================================
 // APPLICATION STATE
@@ -309,6 +309,15 @@ function calculateResult() {
 // ==========================================================================
 function renderResult() {
   const { isHumanities, typeCode, data, metrics } = state.calculatedResults;
+  
+  // Google Analytics (GA4) へ診断結果イベントを送信
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'mbti_result', {
+      'mbti_type': typeCode,
+      'type_title': data.typeTitle,
+      'is_humanities': isHumanities ? 'yes' : 'no'
+    });
+  }
   
   const panel = document.createElement('div');
   panel.className = 'glass-panel result-container';
