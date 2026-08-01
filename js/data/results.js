@@ -7,7 +7,7 @@ export const results = {
     scientists: [
       {
         name: "アイザック・ニュートン",
-        avatar: "🍎",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg\" alt=\"アイザック・ニュートン\">",
         famousQuote: "「私は仮説をつくらない。真理は常に、単純さの中に見出されるのであって、物事の多様性や混乱の中に見出されるのではない。」",
         bio: "力学の三法則と万有引力を定義し、古典物理学の絶対的な基礎を築いた偉人。数理による宇宙の完全な調和を証明しました。"
       }
@@ -22,7 +22,7 @@ export const results = {
     scientists: [
       {
         name: "ジョゼフ・フーリエ",
-        avatar: "🌊",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/a/aa/Joseph_Fourier_portrait.jpg\" alt=\"ジョゼフ・フーリエ\">",
         famousQuote: "「自然の深遠な探求は、数学的な解析の最も豊かな源泉である。」",
         bio: "熱伝導の方程式を解くために「フーリエ解析」を考案。複雑な波を単純な正弦波の重なりとして分解する画期的な数理的手法を確立しました。"
       }
@@ -37,7 +37,7 @@ export const results = {
     scientists: [
       {
         name: "アルベルト・アインシュタイン",
-        avatar: "⏳",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg\" alt=\"アルベルト・アインシュタイン\">",
         bio: "相対性理論によって時間と空間の概念を根本から変革。直感的かつ大胆な思考実験を繰り返し、重力を時空の幾何学的な歪みとして説明しました。",
         famousQuote: "「空想は知識より重要である。知識には限界があるが、想像力は世界を包み込む。」"
       }
@@ -52,7 +52,7 @@ export const results = {
     scientists: [
       {
         name: "オズボーン・レイノルズ",
-        avatar: "🌀",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/3/36/Osborne_Reynolds.jpg\" alt=\"オズボーン・レイノルズ\">",
         famousQuote: "「自然がその秘密を明かすのは、数学の言葉によってではなく、我々が現象そのものに直接問いかけた時である。」",
         bio: "流体力学における「レイノルズ数」を提唱。層流から乱流への転移条件を実験的・理論的に解明し、カオスな流れに秩序を与えました。"
       }
@@ -67,7 +67,7 @@ export const results = {
     scientists: [
       {
         name: "ポール・ディラック",
-        avatar: "⚛️",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d7/Paul_Dirac.jpg\" alt=\"ポール・ディラック\">",
         famousQuote: "「物理方程式は、実験に合うことよりも、美しさを持っていることの方がはるかに重要である。」",
         bio: "量子力学と相対性理論を融合した「ディラック方程式」を導出。数学的対称性の美しさから「陽電子（反物質）」の存在を完全に予言しました。"
       }
@@ -82,7 +82,7 @@ export const results = {
     scientists: [
       {
         name: "ジョン・フォン・ノイマン",
-        avatar: "💻",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif\" alt=\"ジョン・フォン・ノイマン\">",
         famousQuote: "「数学において、物事を理解するのではない。ただ、それに慣れるだけである。」",
         bio: "量子力学の数学的基礎（ヒルベルト空間論）を定式化。さらに、現代コンピュータの基本アーキテクチャやゲーム理論まで設計した超天才。"
       }
@@ -97,13 +97,13 @@ export const results = {
     scientists: [
       {
         name: "湯川秀樹",
-        avatar: "☄️",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f7/Hideki_Yukawa_1949.jpg\" alt=\"湯川秀樹\">",
         famousQuote: "「未知の領域を開拓する者は、暗闇の中で手探りをするようなものである。しかし、その手探りの中にこそ、真の創造がある。」",
         bio: "原子核内で陽子と中性子を結びつける未知の粒子「中間子」の存在を理論的に予言。著書『旅人』に象徴される独創的かつ深遠な思索で、日本人初のノーベル賞を受賞しました。"
       },
       {
         name: "リチャード・ファインマン",
-        avatar: "🥁",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/4/42/Richard_Feynman_Nobel.jpg\" alt=\"リチャード・ファインマン\">",
         famousQuote: "「もし君が、量子力学を理解できたと思っているなら、それは量子力学を理解していない証拠だ。」",
         bio: "量子電磁力学の計算法を劇的にシンプルにした「ファインマン・ダイアグラム」を考案。ユーモアと直感を愛し、科学を遊ぶように追究しました。"
       }
@@ -118,7 +118,7 @@ export const results = {
     scientists: [
       {
         name: "ジョン・バルディーン",
-        avatar: "⚡",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/John_Bardeen.jpg\" alt=\"ジョン・バルディーン\">",
         famousQuote: "「私が関心を持っているのは、何かがどのように機能しているのかという、基本の理解とその応用である。」",
         bio: "半導体（トランジスタ）の発明と、超伝導を説明するBCS理論の構築により、同一のノーベル物理学賞を2回受賞した唯一の物理学者です。"
       }
@@ -133,7 +133,7 @@ export const results = {
     scientists: [
       {
         name: "ヘンリー・キャヴェンディッシュ",
-        avatar: "⚖️",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f0/Henry_Cavendish.jpg\" alt=\"ヘンリー・キャヴェンディッシュ\">",
         famousQuote: "「測定によって証明されないものは、一切信用に値しない。」",
         bio: "ねじり天秤を用いた極めて精密な実験によって、地球の密度（および万有引力定数）を初めて正確に測定。徹底した人間嫌いと精密測定の鬼として知られます。"
       }
@@ -148,7 +148,7 @@ export const results = {
     scientists: [
       {
         name: "ニコラ・テスラ",
-        avatar: "🔌",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg\" alt=\"ニコラ・テスラ\">",
         famousQuote: "「現在のものは彼らのものかもしれない。しかし、私が本当に取り組んできた未来は、私のものだ。」",
         bio: "交流送電システムやテスラコイルを発明。ワイヤレス給電や空間からのエネルギー抽出を夢想した、マッドサイエンティスト的かつ孤高の天才発明家。"
       }
@@ -163,7 +163,7 @@ export const results = {
     scientists: [
       {
         name: "マイケル・ファラデー",
-        avatar: "🧲",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/8/88/Thomas_Phillips_-_Michael_Faraday__%28detailed%29.jpg\" alt=\"マイケル・ファラデー\">",
         famousQuote: "「何事も推測するな。すべてを実験によって証明せよ。自然は私たちの最大の教師である。」",
         bio: "高等数学の教育を受けなかったものの、類稀な実験センスで電磁誘導やベンゼンを発見。磁力を「目に見えない力線」として視覚的に捉えました。"
       }
@@ -178,7 +178,7 @@ export const results = {
     scientists: [
       {
         name: "ジェームズ・ワット",
-        avatar: "⚙️",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/a/a2/James_Watt_by_Henry_Howard.jpg\" alt=\"ジェームズ・ワット\">",
         famousQuote: "「私は考えるのをやめられない。すべての観察は、私にそれを改善する方法を教えてくれる。」",
         bio: "ニューコメンの蒸気機関に分離凝縮器を導入し、効率を劇的に改善。産業革命の原動力を生み出し、仕事率の単位「ワット」にその名を残しています。"
       }
@@ -193,7 +193,7 @@ export const results = {
     scientists: [
       {
         name: "チェン・シュン・ウー",
-        avatar: "🛡️",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/9/91/Chien-shiung_Wu_%281912-1997%29_in_1963_-_Restoration.jpg\" alt=\"チェン・シュン・ウー\">",
         famousQuote: "「もし実験が理論と一致しないなら、間違っているのは理論の方である。たとえそれがどんなに美しく見えても。」",
         bio: "「物理学のファーストレディ」と称される実験学者。理論的に予言された「パリティ対称性の破れ」を、極低温のコバルト60を用いた超精密実験で実証しました。"
       }
@@ -208,7 +208,7 @@ export const results = {
     scientists: [
       {
         name: "江崎玲於奈",
-        avatar: "💎",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/a/aa/Leo_Esaki_1973.jpg\" alt=\"江崎玲於奈\">",
         famousQuote: "「境界領域を越えて、自らの中にある未知の可能性に挑戦することこそが、創造の第一歩である。」",
         bio: "半導体内における電子の量子力学的「トンネル効果」を実験的に発見し、エサキダイオードを開発。超格子構造の提唱など、ナノ物性物理を開拓しました。"
       }
@@ -223,7 +223,7 @@ export const results = {
     scientists: [
       {
         name: "マリー·キュリー",
-        avatar: "🧪",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/c/c8/Marie_Curie_c._1920s.jpg\" alt=\"マリー・キュリー\">",
         famousQuote: "「人生において恐れるべきものは何もない。ただ、理解すべきものがあるだけだ。」",
         bio: "放射能の研究でピエール・キュリーと共にピッチブレンドからラジウムとポロニウムを発見。女性として初のノーベル賞を受賞し、物理学・化学の2部門で受賞しました。"
       }
@@ -238,7 +238,7 @@ export const results = {
     scientists: [
       {
         name: "中村修二",
-        avatar: "💡",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/4/45/Shuji_Nakamura_with_blue_LED.jpg\" alt=\"中村修二\">",
         famousQuote: "「人がやらないこと、人ができないことの中にしか、本当の成功や発見はない。」",
         bio: "高効率な青色発光ダイオード（LED）の製造技術を開発。誰もが諦めた結晶成長プロセスを、独自の実験的アプローチによって突き崩しました。"
       }
@@ -254,7 +254,7 @@ export const results = {
     scientists: [
       {
         name: "ウィリアム・シェイクスピア / ソクラテス",
-        avatar: "🎭",
+        avatar: "<img src=\"https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare_Chandos_Portrait.jpg\" alt=\"ウィリアム・シェイクスピア\">",
         famousQuote: "「天と地の間には、お前の哲学（科学）などには思いも及ばないような、多くの出来事があるのだ。」",
         bio: "人間の葛藤、情熱、運命を言葉で表現し尽くした劇作家と、「無知の知」を唱え人間の善く生きる道を問い続けた哲学者。"
       }
