@@ -1,5 +1,5 @@
-import { questions } from './data/questions.js?v=14';
-import { results } from './data/results.js?v=14';
+import { questions } from './data/questions.js?v=15';
+import { results } from './data/results.js?v=15';
 
 // ==========================================================================
 // APPLICATION STATE
@@ -452,7 +452,9 @@ https://nazeyama-phys.github.io/physics-mbti/
     </div>
     
     <div class="promo-card">
-      <div class="promo-icon">⛰️</div>
+      <div class="promo-icon">
+        <img src="images/nazeyama-icon.png" alt="nazeyama">
+      </div>
       <div class="promo-info">
         <span class="promo-label">Presented by Sponsor</span>
         <h3 class="promo-title">nazeyama（ナゼヤマ）</h3>
