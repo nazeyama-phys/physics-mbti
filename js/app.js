@@ -1,5 +1,5 @@
-import { questions } from './data/questions.js?v=12';
-import { results } from './data/results.js?v=12';
+import { questions } from './data/questions.js?v=13';
+import { results } from './data/results.js?v=13';
 
 // ==========================================================================
 // APPLICATION STATE
@@ -462,6 +462,7 @@ function renderResult() {
     
     <div class="result-actions">
       <button id="retry-btn" class="btn btn-secondary">もう一度測定する</button>
+      <button id="twitter-share-btn" class="btn btn-twitter">𝕏 Twitterでシェア</button>
       <div class="share-container">
         <button id="share-btn" class="btn btn-primary">結果をコピーして共有する</button>
         <span class="tooltip" id="copy-tooltip">クリップボードにコピーしました！</span>
@@ -478,6 +479,12 @@ function renderResult() {
     state.answers = {};
     state.calculatedResults = null;
     render();
+  });
+
+  // Twitter共有イベント
+  document.getElementById('twitter-share-btn').addEventListener('click', () => {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
+    window.open(twitterUrl, '_blank');
   });
   
   // 共有テキストのコピーイベント
